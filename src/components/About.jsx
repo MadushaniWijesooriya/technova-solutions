@@ -25,7 +25,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Visual */}
           <div className="relative order-2 lg:order-1">
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 p-8 flex flex-col justify-between overflow-hidden">
+            <div className="aspect-4/3 rounded-2xl bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 p-8 flex flex-col justify-between overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <div className="absolute top-10 left-10 w-32 h-32 border border-white/30 rounded-full" />
                 <div className="absolute bottom-16 right-12 w-24 h-24 border border-indigo-300/40 rounded-lg rotate-12" />
@@ -61,7 +61,7 @@ export default function About() {
             <div className="mt-8 space-y-5">
               {pillars.map((item) => (
                 <div key={item.title} className="flex gap-4">
-                  <div className="flex-shrink-0 w-11 h-11 rounded-lg bg-indigo-50 flex items-center justify-center">
+                  <div className="shrink-0 w-11 h-11 rounded-lg bg-indigo-50 flex items-center justify-center">
                     <item.icon size={20} className="text-indigo-600" />
                   </div>
                   <div>
