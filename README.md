@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TechNova Solutions
 
 Professional IT Company Business Website built with React.js, Vite, Tailwind CSS, and Lucide React icons.
@@ -59,3 +60,7 @@ src/
 ```
 
 © 2026 TechNova Solutions. Demo website.
+=======
+# technova-solutions
+Professional IT company website for TechNova Solutions — React, Vite &amp; Tailwind CSS
+>>>>>>> 777328e9b75a83604158da54ae8c3164dcaf0e2a
